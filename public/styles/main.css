@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+}
+
+.sort {
+    flex-direction:row-reverse;
+}
+
+.card-img {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.button-group {
+    float: left;
+}
+
+button.delete {
+    color: #a683e3;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border: none;
+    background: none;
+    
+    float: right;
+        
+}
+
+button.edit {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border: none;
+    background: none;
+    float: right;
+}
+
+label {
+    padding-top: 16px;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+button img.icon {
+    height: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+/* form.edit {
+    display: flex;
+} */
+
+
+textarea {
+    text-align: left;
+    width: 100%;
+}
+
+::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
